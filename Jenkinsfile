@@ -11,8 +11,8 @@ pipeline {
         stage('steps-from-blue-ocean') {
           steps {
             sh '''echo "hello world"
-ls -ltra
-pwd'''
+            ls -ltra
+            pwd'''
             echo 'hello wold from print message!!!!'
           }
         }
